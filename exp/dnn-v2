@@ -1,0 +1,19 @@
+.	exp dnn-v2	
+	Date : May 23, 2016
+
+-	Data : connected-digit-p1 (1062 file / 30 speaker)
+-	Training with code : 
+		-> local/online/run_nnet2_multisplice.sh
+-	Config : default (3 hidden layer,--pnorm-input-dim 800,--pnorm-output-dim 160)
+-	Tool decoding : online2-wav-nnet2-latgen-faster
+
+-	Decoding dnn : connected-digit-p2 (1062 file / 30 speaker)
+	%WER 0.86 [ 101 / 11698, 93 ins, 1 del, 7 sub ]
+	%SER 8.65 [ 92 / 1063 ]
+
+-	Decoding dnn-utt : connected-digit-p2 (1062 file / 30 speaker)
+	%WER 0.67 [ 78 / 11698, 74 ins, 1 del, 3 sub ]
+	%SER 6.96 [ 74 / 1063 ]
+
+
+

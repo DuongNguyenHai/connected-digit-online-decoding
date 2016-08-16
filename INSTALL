@@ -1,0 +1,13 @@
+###### Nguyen Hai Duong
+###### August 16 2016
+
+Chương trình server-client đã được build sẵn và chạy trên nền tảng linux 64 bit.
+Cần cài đặt thêm một thư viện duy nhất là ATLAS.
+
+Cài đặt ATLAS [http://math-atlas.sourceforge.net/faq.html] :
+
+sudo apt-get install atlas-base-dev
+
+Chương trình đã được test trên ubuntu-64 bit bản 14.4/16.4.
+
+
