@@ -11,7 +11,9 @@ Chương trình nhận dạng cho bộ chữ số tiếng việt. Có thể nh�
 
 Dữ liệu được training bao gồm : 1062 audio.wav file với 30 người đọc khác nhau.
 Kết quả decoding trên 1062 audio.wav : %WER 0.86 [ 101 / 11698, 93 ins, 1 del, 7 sub ]
-Xem chi tiết ở exp/dnn-v2
+Xem chi tiết ở exp/dnn-v2.
+
+Toàn bộ chương trình tại địa chỉ [project site](https://github.com/DuongNguyenHai/connected-digit-online-decoding)
 
 1.	server:
 ---------------------------------
