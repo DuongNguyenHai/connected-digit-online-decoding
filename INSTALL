@@ -2,12 +2,25 @@
 ###### August 16 2016
 
 Chương trình server-client đã được build sẵn và chạy trên nền tảng linux 64 bit.
-Cần cài đặt thêm một thư viện duy nhất là ATLAS.
 
-Cài đặt thư viện ATLAS [http://math-atlas.sourceforge.net/faq.html] :
+Yêu cầu :
 
-sudo apt-get install libatlas-base-dev
+-	Phiên bản GCC >= 4.8, G++ >=4.8
+-	Thư viện ATLAS.
 
-Chương trình đã được test trên ubuntu-64 bit bản 14.4/16.4.
+Cài đặt :
 
+-	Cài đặt thư viện ATLAS [http://math-atlas.sourceforge.net/faq.html]:
+
+	sudo apt-get install libatlas-base-dev
+
+
+Chương trình đã được test trên ubuntu-64 bit bản 14.4/16.4
+
+# Chú ý:
+Khi copy phải copy cả thư mục "connected-digit-online-decoding.tar.gz" sau đó giải
+nén để giữ nguyên được permission.
+Nếu không có thể dùng câu lệnh khắc phục lỗi "Permission denied"
+
+chmod -R a+rx connected-digit-online-decoding
 
