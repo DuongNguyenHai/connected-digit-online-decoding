@@ -15,7 +15,7 @@ Xem chi tiết ở exp/dnn-v2.
 
 Toàn bộ chương trình tại địa chỉ [project site](https://github.com/DuongNguyenHai/connected-digit-online-decoding)
 
-1.	server:
+Server
 ---------------------------------
 
 Server hỗ trợ cho phương thức dnn. Cùng một lúc có thể decoding nhiều client.
@@ -36,7 +36,7 @@ File thực thi : src/server-dnn-online
 
 Chạy chương trình : ./server.sh
 
-2. client
+Client
 ---------------------------------
 
 Client sẽ cắt từng gói dữ liệu (12kbyte) từ file audio.wav (tần số 16khz), sau đó 
